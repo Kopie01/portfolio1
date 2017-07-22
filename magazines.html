@@ -31,7 +31,7 @@
 				Please click on the pages to view in more detail.
         	</div>
 
-        <div id="mainOtherPages">
+        <!-- <div id="mainOtherPages">
         	
         	<div class="display">
         		<img src="images/education1.jpg">
@@ -46,10 +46,34 @@
         	</div>
 
 
-        </div>
+        </div> -->
+
+        <div id="mainOtherPages">
+
+        <!-- Trigger the Modal -->
+		<img id="myImg" src="images/education1.jpg" alt="Cover of PrincipalsToday magazine" width="200" height="310">
+
+		<img id="myImg2" src="images/tearaway.jpg" alt="Page from Tearaway magazine" width="220" height="310">
+
+		<img id="myImg3" src="images/wellington.jpg" alt="Page from WellingtonToday magazine" width="220" height="310">
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- The Close Button -->
+		  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+		  <!-- Modal Content (The Image) -->
+		  <img class="modal-content" id="img01">
+
+		  <!-- Modal Caption (Image Text) -->
+		  <div id="caption"></div>
+		</div>
+
+		</div>
 
 
-        
+		<script src="js/script.js"></script>        
 	
 </body>
 </html>
