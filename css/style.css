@@ -250,6 +250,11 @@ a{
     width: 400px;
 }
 
+#pageNav{
+    margin-left:20px;
+    margin-top: 40px;
+}
+
 @media all and (min-width: 1000px){
     body,
     #header
