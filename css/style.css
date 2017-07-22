@@ -74,7 +74,7 @@ h4{
 }
 
 #workSection{
-    height:700px;
+    
 }
 
 #projectTitle{
@@ -253,6 +253,54 @@ a{
 #pageNav{
     margin-left:20px;
     margin-top: 40px;
+}
+
+@media all and (max-width: 500px){
+    
+    #header{
+    display: none;
+      }
+      .main-image{
+        height: 300px;
+        padding: 10px;
+      }h1{
+        margin-top: 0px;
+        font-size: 37px;
+      }h4{
+        font-size: 15px;
+      }h2{
+        font-size: 35px;
+      }.heading{
+        padding:0px;
+        padding-top:100px;
+      }.work{
+        
+
+      }.work img{
+        width: 100%;
+        height: 100%
+
+
+      }#mainWork{
+        width: 90%;
+        text-align: center;
+      }
+
+      #aboutTitle{
+        text-align: center;
+
+      }
+      #aboutWords{
+        width: 100%;
+        padding-top: 0px;
+        height: 840px;
+      }
+      .mainabout{
+        width: 80%;
+        font-size: 14px;
+      }
+
+
 }
 
 @media all and (min-width: 1000px){
