@@ -17,6 +17,32 @@ body{
 
 }
 
+.link{
+      width: 200px;
+      height:200px;
+      
+      margin-right: 40px;
+      margin-bottom: 40px;
+
+}
+
+.link img{
+      width: 200px;
+      height:200px;
+      box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
+.tabletint{
+    width: 500px;
+    float: left;
+
+}
+
+.tabletint img{
+    width: 500px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
 #contact{
     text-align: center;
     position: relative;
@@ -74,8 +100,8 @@ body{
     background-color: yellow;
 }
 
-.step{
-
+.display{
+  text-align: center;
 }
 
 #altMenu{
@@ -527,6 +553,17 @@ a{
 
 
 @media all and (max-width: 620px){
+
+  .tabletint{
+    width: 100%;
+    
+
+}
+
+.tabletint img{
+    width: 70%;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
   
   .other{
     width: 80%;
