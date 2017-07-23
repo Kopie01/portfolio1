@@ -245,7 +245,7 @@ a{
     width:100%;
     background-color: #42ab9e;
     padding-top: 10px;
-    height: 600px;
+    padding-bottom: 20px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 2px;
 }
@@ -579,13 +579,6 @@ a{
 
       }
 
-
-
-      #aboutWords{
-        width: 100%;
-        padding-top: 10px;
-        height: 1000px;
-      }
       .mainabout{
         width: 80%;
         font-size: 14px;
@@ -661,8 +654,6 @@ a{
 
 #aboutWords{
     width:60%;
-    padding-top: 10px;
-    height: 750px;
     float:left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 2px;
@@ -681,8 +672,7 @@ a{
 
 }
 
-#aboutContent{
 
 }
-}
 
+}
