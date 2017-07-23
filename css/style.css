@@ -17,6 +17,24 @@ body{
 
 }
 
+#contact{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.emailwords{
+    position: relative;
+    bottom: 170px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.email{
+    color: #42ab9e;
+}
+
  #aboutTitle h2{
         margin-left: 10px;
       }
@@ -227,7 +245,7 @@ a{
     width:100%;
     background-color: #42ab9e;
     padding-top: 10px;
-    height: 800px;
+    height: 600px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 2px;
 }
@@ -298,10 +316,7 @@ a{
     bottom: 180px;
 }
 
-#contact{
-    float:right;
-    width: 400px;
-}
+
 
 #pageNav{
     margin-left:20px;
@@ -569,7 +584,7 @@ a{
       #aboutWords{
         width: 100%;
         padding-top: 10px;
-        height: 820px;
+        height: 1000px;
       }
       .mainabout{
         width: 80%;
@@ -639,10 +654,15 @@ a{
     padding-bottom: 40px;
 }
 
+#contact{
+    float:right;
+    width: 400px;
+}
+
 #aboutWords{
     width:60%;
     padding-top: 10px;
-    height: 700px;
+    height: 750px;
     float:left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 2px;
